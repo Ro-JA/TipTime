@@ -8,4 +8,9 @@
     <string name="round_up_tip">Round up tip?</string>
     <string name="calculate">Calculate</string>
     <string name="tip_amount">Tip Amount</string>
+    <string name="enter_bit">Enter num of bit</string>
+    <string name="text_byt_radio_button">Bytes</string>
+    <string name="text_Kbyt_radio_button">Kilobytes</string>
+    <string name="text_Mbyt_radio_button">Megabytes</string>
+    <string name="text_Gbyt_radio_button">Gigabytes</string>
 </resources>
