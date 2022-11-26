@@ -7,7 +7,7 @@
     <string name="ok_service">Okay (15%)</string>
     <string name="round_up_tip">Round up tip?</string>
     <string name="calculate">Calculate</string>
-    <string name="tip_amount">Tip Amount</string>
+    <string name="tip_amount">Tip Amount: %s</string>
     <string name="enter_bit">Enter num of bit</string>
     <string name="text_byt_radio_button">Bytes</string>
     <string name="text_Kbyt_radio_button">Kilobytes</string>
