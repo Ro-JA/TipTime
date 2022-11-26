@@ -26,7 +26,8 @@
             android:id="@+id/byt_radio_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/text_byt_radio_button"/>
+            android:text="@string/text_byt_radio_button"
+            android:checked="true"/>
         <RadioButton
             android:id="@+id/Kbyt_radio_button"
             android:layout_width="wrap_content"
@@ -47,9 +48,21 @@
 
     <Switch
         android:id="@+id/switch_round"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@+id/radio_group"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/radio_group"
+        android:text="@string/round_up_tip"
+        android:checked="true"/>
+
+    <TextView
+        android:id="@+id/result_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/switch_round"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="@string/result_transfer"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

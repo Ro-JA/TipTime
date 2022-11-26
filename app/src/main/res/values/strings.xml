@@ -13,4 +13,5 @@
     <string name="text_Kbyt_radio_button">Kilobytes</string>
     <string name="text_Mbyt_radio_button">Megabytes</string>
     <string name="text_Gbyt_radio_button">Gigabytes</string>
+    <string name="result_transfer">The rusult of the transfer</string>
 </resources>
